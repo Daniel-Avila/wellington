@@ -1,0 +1,25 @@
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<body>
+<div class="panel panel-default" style="max-width: 40%">
+    <div class="panel-heading">
+        <h3 class="panel-title">The Bob Report</h3>
+    </div>
+    <div class="panel-body">
+        {% for record in report_data %}
+            <ul class="list-group">
+                <li class="list-group-item">
+                    Account Type: {{ record.account_type }}
+                </li>
+                <li class="list-group-item">
+                    Account ID:  {{ record.account_id }}
+                </li>
+                <li class="list-group-item">
+                    Account Name:  {{ record.account_name }}
+                </li>
+            </ul>
+        {% endfor %}
+    </div>
+</div>
+</body>
+</html>

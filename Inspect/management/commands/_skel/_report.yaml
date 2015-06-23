@@ -1,0 +1,8 @@
+# ModelName1: (represented in Report.data as a sublist of dictionaries should be the 0th element)
+#   attribute_name1: null (retrieve this field from the database)
+#   attribute_name2: null (retrieve this field from the database)
+#   attribute_name3: <Optional [some value]> (filter based on this field)
+# ModelName1: (represented in Report.data as a sublist of dictionaries should be the 1th element)
+#   attribute_name1: null (retrieve this field from the database)
+#   attribute_name2: null (retrieve this field from the database)
+#   attribute_name3: <Optional [some value]> (filter based on this field)
